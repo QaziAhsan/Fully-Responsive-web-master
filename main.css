@@ -1,0 +1,184 @@
+#nav-bar{
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgb(235, 151, 130),rgb(248, 83, 71), rgb(165, 96, 144) );
+    padding: 0% !important;
+}
+#navbarNav a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    margin: 10px;
+  border: 2px solid white; 
+  border-radius: 4px;
+}
+#navbarNav a:hover{
+    border:2px solid rgb(255, 150, 150);
+    transform: translateY(4px);
+}
+.fa-bars{
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+        /*---------------------------banner---------------------------------*/
+#banner{
+    padding-top: 5%;
+    background-image: linear-gradient(to right, rgb(235, 151, 130), rgb(248, 83, 71), rgb(165, 96, 144));
+    color: white;
+}
+
+.name{
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.img{
+      width: 100%;
+  }
+
+      /*--------------------------------------- Services -----------------------------------------------*/
+.title{
+    text-align: center;
+    margin-top: 60px!important;
+}
+
+.title::before{
+    content: '';
+    background: rgb(231, 98, 171);
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    display: block;
+    transform: translateY(60px);
+}
+.title::after{
+    content: '';
+    background: rgb(231, 98, 171);
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 8px;
+    display: block;
+    transform: translateY(6px)
+}
+.img1{
+    margin-top: 10px;    
+width: 150px;
+height: 150px;
+align-content: center;
+  }
+.img2{
+    margin-top: 20px;
+    width: 180px;
+    height: 120px;
+    align-content: center;
+    margin-bottom: 20px;
+  }
+.btn-primary-Adj{
+    border-radius: 50px !important;
+    width: 130px;
+    background:  linear-gradient(to right, rgb(235, 151, 130), rgb(248, 83, 71), rgb(165, 96, 144) );
+    border:none !important;
+    box-shadow: none !important;
+}
+/*------------------------------------------------- About us ---------------------------------------------------------*/
+#us{
+    margin-top: 100px !important;
+    padding-bottom: 10px !important;
+    background: rgb(236, 236, 236) !important;
+    text-align: center;
+}
+
+.text{
+padding-top: 50px;
+}
+
+ /* --------------------------------------Reviews Of Some of Our clients----------------------------------------------*/
+ #review{
+     margin-top:100px;
+ }
+
+ .review1{
+     border-left: 4px solid rgb(201, 130, 177);
+     margin-right: 40px;
+ }
+ .review1 img{
+    width: 60px ;
+    height: 60px;
+    border-radius: 30px;
+}
+
+ .review2{
+    border-left: 4px solid rgb(201, 130, 177);
+    margin-right: 80px;
+}
+ .review2 img{
+     width: 60px ;
+     height: 60px;
+     border-radius: 30px;
+ }
+ .comment{
+    display: inline-block;
+    font-size: 12px;
+ }
+ .review1, .review2{
+     margin-top: 40px !important;
+ }
+
+    /*------------------------------Social---------------------------*/
+.icon img{
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    margin-top: 50px;
+}
+.social{
+    margin-top: 100px;
+    background: rgb(236, 236, 236);
+    border-radius: 5px;
+}
+.icon img:hover{
+    background: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    transform: translateY(-4px);
+}
+/*------------------------------------------Footer-------------------------------------- */
+
+.list li{
+    list-style-type:none;
+    text-align: right;
+}
+
+.list{
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+.footer{
+    padding-top: 60px;
+    background: linear-gradient(to right, rgb(235, 151, 130), rgb(248, 83, 71), rgb(165, 96, 144) );
+    color: white;
+}
+
+.contact{
+    text-align: right;
+}
+.email a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+/* ----------------------------------------------copyright---------------------------------- */
+.copyright{
+    color:rgb(255, 255, 255, 0.5);
+    font-size: 80%;
+    text-align: center; 
+}
